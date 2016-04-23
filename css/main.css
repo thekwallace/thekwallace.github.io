@@ -1,0 +1,253 @@
+body
+{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+a
+{
+	text-decoration: none;
+}
+div
+{
+	cursor: default;
+}
+ul, li, p
+{
+	margin: 0;
+	padding: 0;
+}
+
+#logoImage
+{
+	border: 0;
+	margin-right: .4em;
+	margin-left: .4em;
+	cursor: pointer;
+}
+#logoImage a:active, #logoImage a:focus
+{
+	outline-style: none;
+}
+#header
+{
+	padding-top: 7px;
+	padding-right: 5px;
+	padding-left: 5px;
+	width: 966px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#headerWrapper
+{
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+.headerTopLine
+{
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-color: #000000;
+	height: 62px;
+}
+#headerSpacerLeft
+{
+	width: 40px;
+}
+#headerSpacerRight
+{
+	width: 554px;
+}
+.headerBlock
+{
+    float: left;
+}
+.activeLink a
+{
+	border-bottom: .3em #a51111 solid;
+	text-decoration: none;
+	outline-style: none;
+	color: #000000;
+}
+#tagline
+{
+
+}
+#tagline p
+{
+    padding-top: .2em;
+    font-size: .9em;
+    font-style: italic;
+	color: #999999;    
+}
+#headerMenuContainer
+{
+	width: 545px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#headerMenu
+{
+	position: relative;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	height: 2em;
+	padding: 0 6px 0 6px;
+	margin-right: 3em;
+	margin-left: 3em;
+	font-size: 1em;
+}
+#headerMenu ul
+{
+	vertical-align: bottom;
+	padding-top: .65em;
+}
+#headerMenu ul li
+{
+	display: inline-block;
+}
+#headerMenu ul li a
+{
+	color: #999999;
+	padding: .65em .4em .1em .4em;
+	margin: 0 .4em 0 .4em;
+}
+#headerMenu ul li a:hover, #headerMenu ul li a:focus
+{
+	border-bottom: .3em #a51111 solid;
+	text-decoration: none;
+	outline-style: none;
+	color: #000000;
+}
+
+#mainContainer
+{
+	display: inline-block;
+	min-height: 450px;
+	width: 976px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#mainContainer div
+{
+	padding: 1.5em;
+}
+#iconButtonBar
+{
+	width: 600px;
+	height: 300px;
+	background: url(/images/login-graphics.png);
+	position: relative;
+    margin-left: auto;
+	margin-right: auto;
+
+}
+#iconButtonBar li
+{
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+#iconButtonBar li, #iconButtonBar a
+{
+	height: 300px;
+	display: block;
+}
+#iconButtonBar a
+{
+    font-size: x-large;
+}
+#iconButton1
+{
+	left: 0;
+	width: 300px;
+}
+#iconButton2
+{
+	left: 300px;
+	width: 300px;
+}
+#iconButton1 a:hover
+{
+	background: transparent url(/images/login-graphics.png) 0 -300px no-repeat;
+	outline-style: none;
+}
+#iconButton2 a:hover
+{
+	background: transparent url(/images/login-graphics.png) -300px -300px no-repeat;
+	outline-style: none;
+}
+#iconButton1 a:active, #iconButton1 a:focus
+{
+	background: transparent url(/images/login-graphics.png) 0 -600px no-repeat;
+	outline-style: none;
+}
+#iconButton2 a:active, #iconButton2 a:focus
+{
+	background: transparent url(/images/login-graphics.png) -300px -600px no-repeat;
+	outline-style: none;
+}
+#servicesBody
+{
+	color: #666666;
+	text-align: left;
+	font-size: 1em;
+}
+.serviceHeadings
+{
+	font-size:1.1em;
+	color: #000000;
+}
+.serviceFooter
+{
+	text-align: center;
+}
+#contactForm
+{
+	color: #666666;
+	width: 15em;
+	margin-left: auto;
+	margin-right: auto;
+    padding: .1em .3em .1em .3em;
+	text-align: left;
+	font-size: 1.5em;
+}
+#contactForm input,
+#contactForm textarea
+{
+	width: 15em;
+	color: #666666;
+	font-size: 1em;
+}
+#contactForm textarea
+{
+	height: 6em;
+	font-size: .75em;
+    width: 20em;
+}
+#footer
+{
+	width: 976px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer div
+{
+	color: #999999;
+	font-size: smaller;
+}
+#footer a
+{
+	color: #999999;
+	text-decoration: underline;
+}
+#footer ul li
+{
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
