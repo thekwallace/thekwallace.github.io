@@ -64,6 +64,11 @@ ul, li, p
 {
     float: left;
 }
+.headerLogoBlock
+{
+    padding-top: 30;
+	float: left;
+}
 .activeLink a
 {
 	border-bottom: .3em #a51111 solid;
