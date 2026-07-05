@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["R629H8M9F9.com.kwallace.WhosWinning"],
+        "components": [{ "/": "/ww/*" }]
+      }
+    ]
+  }
+}

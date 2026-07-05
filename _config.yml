@@ -1,2 +1,4 @@
 name: kwallace.com LLC
 markdown: kramdown
+# Publish the Apple universal-links file (Jekyll skips dot-dirs by default).
+include: [".well-known"]
